@@ -15,6 +15,70 @@ learn.fit(1)                                                # 학습자 실행 (
 
 *Note: fastai v1에 대한 사용법을 리딩 개발자인 "Jeremy Howard"로부터 배우고 싶다면, "Jeremy Howard"는 [Deep Learning Part I 코스](https://www.usfca.edu/data-institute/certificates/deep-learning-part-one)를 2018년 11월 22일부터 샌프란시스코 대학교에서 가르칠 계획이 있다.
 
+현재 `fastai-0.7.x` 버전을 설치하는 두 가지 방법이 있다: (1) conda에서 git 소스를 이용 (추천), (2) pip 패키지를 이용 (약간 오래된 코드임)
+
+**1. Conda에서 소스를 이용한 설치법**
+
+일단 다음과 같이 fastai라는 conda 환경을 하나 만든다. 필요한 모든 패키지를 설치해 주고, 한번만 수행하면 된다.
+
+```sh
+git clone https://github.com/fastai/fastai.git  # GIT 저장소 복제
+cd fastai                                       # fastai 폴더로 이동 
+conda env create -f environment.yml             # 패키지 설치 후 conda 가상환경 생성
+```
+
+그 다음으로 fastai 환경을 활성화 한다.
+
+```sh
+conda activate fastai                           # 가상환경 활성화 (GPU)
+```
+
+GPU가 없으면, CPU용 환경인 fastai-cpu를 설치하고 활성화 한다.
+
+```sh
+git clone https://github.com/fastai/fastai.git  # GIT 저장소 복제
+cd fastai                                       # fastai 폴더로 이동 
+conda env create -f environment-cpu.yml         # 패키지 설치 후 CPU용 conda 가상환경 생성
+conda activate fastai-cpu                       # 가상환경 활성화
+```
+
+> 윈도우를 사용자 중에, 클라우드나 가상머신 서비스 대신에 가지고 있는 GPU를 활용하고 싶으면 별도의 과정이 필요하다. [여기에서](https://forums.fast.ai/t/howto-installation-on-windows/10439) 확인해보길 바란다.
+
+여기까지 설치를 했으면, 코스관련 노트북을 실행해보자:
+
+```sh
+jupyter notebook                                # 주피터 노트북 실행
+```
+
+주피터 노트북이 실행되면, 브라우져에서 `courses/dl1/lesson1.ipynb` 노트북 파일을 선택해서 실행해 본다.
+
+`fastai` 또는 `fastai-cpu` 환경 중에, 자신의 상황에 맞는 환경을 선택해서 활성화 하고, 그리고 나서 코딩을 하던 노트북을 작성하던지가 가능해진다.
+
+나중에, 최신의 `fastai-0.7.x` 코드로 업데이트 하고자 하면:
+
+```sh
+cd fastai            # fastai 폴더로 이동
+git pull             # 소스를 GIT 서버와 동기화
+conda env update     # conda 환경 패키지 업데이트
+```
+
+이 과정을 수행하다 뭔가가 잘못되면, 이전 버전을 먼저 삭제한다
+
+```sh
+conda env remove -y -n fastai       # conda 환경 삭제 (GPU)
+conda env remove -y -b fastai-cpu   # conda 환경 삭제 (CPU)
+```
+
+그리고 앞에서 설명한 방법대로 conda 환경을 다시 생성해보길 바란다.
+
+**2. PIP을 이용한 설치법**
+
+```sh
+pip install fastai==0.7.0
+pip install torchtext==0.2.3
+This currently will install the fastai version from May 13, 2018 (outdated)
+```
+
 ## 설치 방법
 
 `fastai-1.x` 는 `conda` 또는 `pip`라는 패키지 매니져, 그리고 소스코드를 직접 빌드해서 설치가 가능하다. 요구되는 올바른 `pytorch` 버전이 우선적으로 인스톨 되어야 하기 때문에, 아직까지는 단순히 *install*을 실행하지 못한다. 따라서, `fastai-1.x`를 설치하기 위해서는 아래의 방법 중 한가지를 선택해서 진행해야만 한다.
