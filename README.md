@@ -19,7 +19,10 @@
 - **[Fast.ai 라이브러리 소개 및 설치법](./fastai_lib_intro.md)**
 - **Fast.ai 교육용 주피터 노트북 자료**
   - 레슨1: 고양이와 강아지를 인식해 보자
+    - [강의 동영상](https://www.youtube.com/watch?v=IPBSB1HLNLo)
+    - [강의 동영상 자막](./lesson1.sbv)
     - [주피터 노트북](./courses/dl1/lesson1.ipynb)
+    
   - 레슨2: 컨볼루션 뉴럴 네트워크를 사용해 보자
   - 레슨3: 인식 알고리즘의 성능을 향상시켜 보자
   - 레슨4: 사람의 언어를 이해하는 모델을 사용해 보자
