@@ -28,13 +28,15 @@
   - 파트1
     - 레슨1: 고양이와 강아지를 인식해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=IPBSB1HLNLo) | [자막](./lesson1.sbv)
-      - [주피터 노트북](./courses/dl1/lesson1.ipynb)
+      - 주피터 노트북: [레슨1](./courses/dl1/lesson1.ipynb)
     
     - 레슨2: 컨볼루션 뉴럴 네트워크를 사용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=JNxcznsrRb8&t=5630s) | [자막](./lesson2.sbv)
+      - 주피터 노트북: [개 품종](./courses/dl1/lesson1-breeds.ipynb) | [ResNext50 개 vs 고양이](./courses/dl1/lesson1-rxt50.ipynb)
       
     - 레슨3: 인식 알고리즘의 성능을 향상시켜 보자
       - [강의 동영상](https://www.youtube.com/watch?v=9C06ZPF8Uuc) | [자막](./lesson3.sbv)
+      - 주피터 노트북: [Keras 사용](./courses/dl1/keras_lesson1.ipynb)
     
     - 레슨4: 사람의 언어를 이해하는 모델을 사용해 보자
     - 레슨5: 필터를 적용해 보자
