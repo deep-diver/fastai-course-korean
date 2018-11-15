@@ -21,6 +21,22 @@
 - [Fast.ai 커뮤니티 포럼](https://forums.fast.ai/)
 - [Fast.ai 저장소(라이브러리, 코스등)](https://github.com/fastai/fastai)
 
+# 작업중인 자막을 입혀서 시청하는 방법
+
+1. 로컬 컴퓨터에서 시청하는 방법
+   - 1.1 Youtube 동영상 다운로드
+   - 1.2 저장소에 등록된 sbv 자막 다운로드
+   - 1.3 로컬 컴퓨터의 동영상 플레이어로 재생
+
+2. Youtube 에서 바로 시청하는 방법
+   - 2.1 강의 sbv 자막 파일 다운로드
+   - 2.2 강의 링크로 Youtube에 호스팅된 강의로 이동
+   - 2.3 Youtube 동영상 플레이어 하단의 톱니바퀴 아이콘 클릭
+   - 2.4 Subtitles/CC 메뉴 선택 ==> Add subtitles/CC 선택 ==> Creator Studio로 이동됨
+   - 2.5 동영상 우측의 Select Language 메뉴 선택 ==> Korean 선택 ==> 자막 추가하는 주소로 이동됨
+   - 2.6 동영상 좌측의 Actions 메뉴 선택 ==> Upload a file 선택 ==> sbv 자막파일 선택
+   - 2.7 자막이 입혀진 동영상 시청
+
 # 컨텐츠
 
 - **[Fast.ai 라이브러리 소개 및 설치법](./fastai_lib_intro.md)**
