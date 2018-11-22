@@ -52,7 +52,7 @@
       
     - 레슨3: 인식 알고리즘의 성능을 향상시켜 보자
       - [강의 동영상](https://www.youtube.com/watch?v=9C06ZPF8Uuc) | [자막](./lesson3.sbv)
-      - 주피터 노트북: [Keras 사용](./courses/dl1/keras_lesson1.ipynb)
+      - 주피터 노트북: [Keras 사용](./courses/dl1/keras_lesson1.ipynb) | [다중-레이블 문제(planet 경연)](./courses/dl1/lesson2-image_models.ipynb) | [Rossman 판매량 데이터](./courses/dl1/lesson3-rossman.ipynb)
     
     - 레슨4: 사람의 언어를 이해하는 모델을 사용해 보자
     - 레슨5: 필터를 적용해 보자
