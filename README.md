@@ -48,7 +48,7 @@
     
     - 레슨2: 컨볼루션 뉴럴 네트워크를 사용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=JNxcznsrRb8&t=5630s) | [자막](./lesson2.sbv)
-      - 주피터 노트북: [개 품종](./courses/dl1/lesson1-breeds.ipynb) | [ResNext50 개 vs 고양이](./courses/dl1/lesson1-rxt50.ipynb)
+      - 주피터 노트북: [개 품종 분류 경연(dog breed classification)](./courses/dl1/lesson1-breeds.ipynb) | [ResNext50 개 vs 고양이](./courses/dl1/lesson1-rxt50.ipynb)
       
     - 레슨3: 인식 알고리즘의 성능을 향상시켜 보자
       - [강의 동영상](https://www.youtube.com/watch?v=9C06ZPF8Uuc) | [자막](./lesson3.sbv)
