@@ -62,8 +62,10 @@
       - [강의 동영상](https://www.youtube.com/watch?v=J99NV9Cr75I) | [자막](./)
     
     - 레슨6: 임베딩 기술과 RNN (리커런트 뉴럴 네트워크)
+      - [강의 동영상](https://www.youtube.com/watch?v=sHcLkfRrgoQ&t=1s) | [자막]
     
     - 레슨7: ResNet 이라는 모델을 이해해 보자
+      - [강의 동영상](https://www.youtube.com/watch?v=H3g26EVADgY&t=11s) | [자막]
 
   - 파트2
     - 레슨8: 사물을 인식해 보자 (이미지의 어디에 사물이 있는지 위치)
