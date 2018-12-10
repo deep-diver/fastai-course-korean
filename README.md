@@ -56,7 +56,7 @@
     
     - 레슨4: 사람의 언어를 이해하는 모델을 사용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=gbceqO8PpBg&t=283s) | [자막](./lesson4.sbv)
-      - 주피터 노트북: [Rossman 판매량 데이터](./courses/dl1/lesson3-rossman.ipynb)
+      - 주피터 노트북: [Rossman 판매량 데이터](./courses/dl1/lesson3-rossman.ipynb) | [IMDB](./courses/dl1/lesson4-imdb.ipynb)
     
     - 레슨5: 필터를 적용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=J99NV9Cr75I) | [자막](./)
