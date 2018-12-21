@@ -49,6 +49,8 @@
     - 레슨2: 컨볼루션 뉴럴 네트워크를 사용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=JNxcznsrRb8&t=5630s) | [자막](./lesson2.sbv)
       - 주피터 노트북: [개 품종 분류 경연(dog breed classification)](./courses/dl1/lesson1-breeds.ipynb) | [ResNext50 개 vs 고양이](./courses/dl1/lesson1-rxt50.ipynb)
+      - [엑셀을 이용한 CNN 시각화](./courses/dl1/excel/conv-example.xlsx)
+      - [엑셀을 이용한 Cross Entropy 설명](./courses/dl1/excel/entropy_example.xlsx)
       
     - 레슨3: 인식 알고리즘의 성능을 향상시켜 보자
       - [강의 동영상](https://www.youtube.com/watch?v=9C06ZPF8Uuc) | [자막](./lesson3.sbv)
@@ -56,10 +58,12 @@
     
     - 레슨4: 사람의 언어를 이해하는 모델을 사용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=gbceqO8PpBg&t=283s) | [자막](./lesson4.sbv)
-      - 주피터 노트북: [Rossman 판매량 데이터](./courses/dl1/lesson3-rossman.ipynb) | [IMDB](./courses/dl1/lesson4-imdb.ipynb)
+      - 주피터 노트북: [Rossman 판매량 데이터](./courses/dl1/lesson3-rossman.ipynb) | [IMDB](./courses/dl1/lesson4-imdb.ipynb) | [MovieLens](./courses/dl1/lesson5-movielens.ipynb)
     
     - 레슨5: 필터를 적용해 보자
       - [강의 동영상](https://www.youtube.com/watch?v=J99NV9Cr75I) | [자막](./)
+      - 주피 노트북: [MovieLens](./courses/dl1/lesson5-movielens.ipynb)
+      - [엑셀에 표현된 MovieLens 데이터](./courses/dl1/excel/collab_filter.xlsx)
     
     - 레슨6: 임베딩 기술과 RNN (리커런트 뉴럴 네트워크)
       - [강의 동영상](https://www.youtube.com/watch?v=sHcLkfRrgoQ&t=1s) | [자막]
