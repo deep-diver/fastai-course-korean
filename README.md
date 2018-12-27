@@ -64,6 +64,7 @@
       - [강의 동영상](https://www.youtube.com/watch?v=J99NV9Cr75I) | [자막](./)
       - 주피 노트북: [MovieLens](./courses/dl1/lesson5-movielens.ipynb)
       - [엑셀에 표현된 MovieLens 데이터](./courses/dl1/excel/collab_filter.xlsx)
+      - [엑셀을 이용한 Optimizer와 Momentum의 이해](./courses/dl1/excel/graddesc.xlsm)
     
     - 레슨6: 임베딩 기술과 RNN (리커런트 뉴럴 네트워크)
       - [강의 동영상](https://www.youtube.com/watch?v=sHcLkfRrgoQ&t=1s) | [자막]
